@@ -1,0 +1,27 @@
+/* This is where my CSS will go! */
+
+.body {
+    background-color: rgb(140, 140, 128);
+}
+/* css for navbr */
+nav li {
+    display: inline-block;
+    margin: 12px;
+    list-style-type: None;
+
+    }
+
+
+nav a {
+        text-decoration: none;
+        font-family: Poppins;
+        color: #937e7e;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 130%;
+        margin: 10px;
+      }
+nav li a:hover {
+        border-bottom: 5px solid black;
+        padding-bottom: 3px;
+      }
